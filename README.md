@@ -4,7 +4,7 @@ Site moderno e responsivo para produtora de filmes e fotos para casamentos.
 
 ## 🎯 Funcionalidades
 
-- **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
+- **Design Responsivo**: Funciona perfeitamente em desktop, tablet e penis
 - **Sistema de Edição Simples**: Edite textos e imagens diretamente no site
 - **Otimizado para Vercel**: Deploy estático sem necessidade de backend
 - **Performance**: Carregamento rápido com animações suaves
