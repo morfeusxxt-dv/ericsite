@@ -18,8 +18,17 @@ class ContentManager {
   // Carregar conteúdo do JSON
   async loadContent() {
     try {
-      const response = await fetch('content.json');
-      this.content = await response.json();
+      // Tentar carregar do localStorage primeiro (edições recentes)
+      const savedContent = localStorage.getItem('scw_content_draft');
+      if (savedContent) {
+        this.content = JSON.parse(savedContent);
+        console.log('Conteúdo carregado do localStorage');
+      } else {
+        // Se não houver no localStorage, carregar do arquivo
+        const response = await fetch('content.json');
+        this.content = await response.json();
+        console.log('Conteúdo carregado do arquivo JSON');
+      }
     } catch (error) {
       console.error('Erro ao carregar conteúdo:', error);
       // Fallback para conteúdo padrão
@@ -347,6 +356,10 @@ class ContentManager {
     // Atualizar valor
     const lastKey = keys[keys.length - 1];
     current[lastKey] = value;
+    
+    // Salvar automaticamente no localStorage
+    localStorage.setItem('scw_content_draft', JSON.stringify(this.content));
+    console.log('Conteúdo salvo automaticamente no localStorage');
   }
 
   // Salvar conteúdo completo
@@ -358,6 +371,10 @@ class ContentManager {
     a.download = 'content.json';
     a.click();
     URL.revokeObjectURL(url);
+    
+    // Também salvar no localStorage
+    localStorage.setItem('scw_content_draft', JSON.stringify(this.content));
+    console.log('Conteúdo salvo e backup no localStorage');
   }
 
   // Exportar conteúdo
