@@ -1,0 +1,16 @@
+{
+  "name": "sc-wedding-site",
+  "version": "1.0.0",
+  "description": "Site para SC Wedding Production - Filmes e Fotos para Casamentos",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Ready for deployment'",
+    "preview": "python -m http.server 3000"
+  },
+  "keywords": ["wedding", "photography", "videography", "casamento"],
+  "author": "SC Wedding Production",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

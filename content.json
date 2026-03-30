@@ -1,0 +1,200 @@
+{
+  "site": {
+    "title": "SC Wedding Production",
+    "tagline": "Produtora de Filmes & Fotos para Casamentos · Ceará",
+    "copyright": "© 2025 SC Wedding Production · Todos os direitos reservados"
+  },
+  "hero": {
+    "badge": "Filmes & Fotos para Casamentos · Ceará",
+    "title": "Momentos que<br>ficam para <em>sempre</em>",
+    "subtitle": "Capturamos e filmamos a emoção real do seu grande dia com luz, arte e sentimento que atravessam o tempo.",
+    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1400&q=85"
+  },
+  "gallery": {
+    "title": "A História de Amor em Imagens",
+    "subtitle": "Cada foto conta<br>um <em>capítulo único</em>",
+    "description": "Do primeiro olhar ao \"sim\" — preservamos cada instante com a delicadeza que ele merece.",
+    "chapters": [
+      {
+        "id": "ch0",
+        "num": "Cap. 01",
+        "tag": "O Começo",
+        "title": "A Chegada da <em>Noiva</em>",
+        "description": "O momento em que as portas se abrem e o tempo parece pausar. O véu, o vestido, o nervosismo misturado com alegria — tudo isso merece ser eternizado com a delicadeza que o instante pede.",
+        "image": "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900&q=80"
+      },
+      {
+        "id": "ch1",
+        "num": "Cap. 02",
+        "tag": "Os Detalhes",
+        "title": "Cada <em>Detalhe</em> Importa",
+        "description": "As flores cuidadosamente escolhidas, o buquê que tremeu nas mãos, a aliança sobre o véu. São os pequenos detalhes que transformam memórias em obras de arte.",
+        "image": "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?w=900&q=80"
+      },
+      {
+        "id": "ch2",
+        "num": "Cap. 03",
+        "tag": "A Cerimônia",
+        "title": "O <em>Sim</em> que Muda Tudo",
+        "description": "Diante de todos os que amam, duas almas escolhem uma à outra. Esse instante não tem preço. Nossa lente captura a emoção pura desse sim eterno.",
+        "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=900&q=80"
+      },
+      {
+        "id": "ch3",
+        "num": "Cap. 04",
+        "tag": "As Emoções",
+        "title": "Lágrimas de <em>Felicidade</em>",
+        "description": "A emoção que escapa nos olhos do noivo ao ver sua amada, ou nas mãos que se unem pela primeira vez. Somos especialistas em capturar o que as palavras não conseguem descrever.",
+        "image": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=900&q=80"
+      },
+      {
+        "id": "ch4",
+        "num": "Cap. 05",
+        "tag": "O Casal",
+        "title": "Unidos para <em>Sempre</em>",
+        "description": "O momento do casal a sós, ainda na euforia do dia, com a leveza de quem acaba de viver o maior dia de suas vidas. Retratos cheios de amor genuíno e conexão real.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=80"
+      },
+      {
+        "id": "ch5",
+        "num": "Cap. 06",
+        "tag": "A Celebração",
+        "title": "A Festa que <em>Transborda</em>",
+        "description": "Dança, risos, abraços e brindis. A recepção é onde a história continua sendo escrita, com cada convidado fazendo parte desse capítulo inesquecível de amor e alegria.",
+        "image": "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=900&q=80"
+      }
+    ]
+  },
+  "quote": {
+    "text": "Um casamento é um dia. Um bom casamento é uma vida inteira. Nossas produções guardam os dois.",
+    "author": "— SC Wedding Production",
+    "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=80"
+  },
+  "videos": {
+    "enabled": false,
+    "title": "Nossos Filmes",
+    "subtitle": "Cinema para o seu <em>grande dia</em>",
+    "description": "Filmes de casamento que emocionam para sempre — com direção de arte, trilha e narrativa únicas.",
+    "items": []
+  },
+  "memories": {
+    "title": "Momentos Especiais",
+    "subtitle": "Mais <em>memórias</em>",
+    "enabled": true,
+    "items": [
+      {
+        "id": "mini1",
+        "label": "Detalhes",
+        "image": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=75"
+      },
+      {
+        "id": "mini2",
+        "label": "Cerimônia",
+        "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=75"
+      },
+      {
+        "id": "mini3",
+        "label": "Casal",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=75"
+      },
+      {
+        "id": "mini4",
+        "label": "Família",
+        "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=75"
+      },
+      {
+        "id": "mini5",
+        "label": "Flores",
+        "image": "https://images.unsplash.com/photo-1507504031003-b417219a0fde?w=600&q=75"
+      },
+      {
+        "id": "mini6",
+        "label": "Celebração",
+        "image": "https://images.unsplash.com/photo-1535378273068-9bb67d5beacd?w=600&q=75"
+      },
+      {
+        "id": "mini7",
+        "label": "Alianças",
+        "image": "https://images.unsplash.com/photo-1606216840931-cdfd5dc2cbce?w=600&q=75"
+      },
+      {
+        "id": "mini8",
+        "label": "Festa",
+        "image": "https://images.unsplash.com/photo-1553808989-9d36e946d6c7?w=600&q=75"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "id": "sN1",
+      "value": "350",
+      "label": "Casamentos Realizados"
+    },
+    {
+      "id": "sN2",
+      "value": "10",
+      "label": "Anos de Experiência"
+    },
+    {
+      "id": "sN3",
+      "value": "80",
+      "label": "Fotos Entregues",
+      "suffix": "<sup>k</sup>"
+    },
+    {
+      "id": "sN4",
+      "value": "12",
+      "label": "Estados Atendidos"
+    }
+  ],
+  "about": {
+    "title": "Sobre Nós",
+    "subtitle": "A arte de eternizar <em>amor</em>",
+    "description": "Somos uma produtora especializada em filmes e fotografias para casamentos. Desde 2015 percorremos o Brasil capturando cerimônias com um olhar autêntico — valorizando cada detalhe, cada olhar, cada lágrima de felicidade.<br><br>Nossa abordagem é discreta e próxima: queremos que você esqueça a câmera e viva intensamente o momento. O resultado são imagens e filmes que emocionam década após década.",
+    "signature": "SC Wedding",
+    "image": "https://images.unsplash.com/photo-1625731052193-7e4dd698b7f8?w=800&q=80"
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "subtitle": "O que os casais <em>dizem</em>",
+    "items": [
+      {
+        "id": "tt0",
+        "name": "Ana & Pedro",
+        "date": "Casamento em Fortaleza, 2024",
+        "text": "As fotos e o filme ficaram incríveis. Cada imagem conta uma história e nos emociona toda vez que abrimos o álbum.",
+        "stars": "★★★★★"
+      },
+      {
+        "id": "tt1",
+        "name": "Camila & Lucas",
+        "date": "Casamento em Jericoacoara, 2024",
+        "text": "Profissionalismo e sensibilidade únicos. Discretos durante a cerimônia mas capturaram absolutamente tudo.",
+        "stars": "★★★★★"
+      },
+      {
+        "id": "tt2",
+        "name": "Juliana & Rafael",
+        "date": "Casamento em Canindé, 2023",
+        "text": "O filme é emocionante — assistimos toda vez que queremos reviver o nosso dia. Arte pura.",
+        "stars": "★★★★★"
+      },
+      {
+        "id": "tt3",
+        "name": "Fernanda & Marcos",
+        "date": "Casamento em Fortaleza, 2023",
+        "text": "Desde o planejamento até a entrega, tudo foi perfeito. Um time que realmente se importa com a história de cada casal.",
+        "stars": "★★★★★"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Reserve sua data",
+    "subtitle": "Vamos contar a história<br>do seu <em>grande dia?</em>",
+    "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=80",
+    "whatsapp": "+5585999999999",
+    "instagram": "https://instagram.com/seuperfil",
+    "facebook": "https://facebook.com/seuperfil",
+    "message": "Olá! Vim pelo site e quero saber sobre filmes e fotos para casamento."
+  }
+}
