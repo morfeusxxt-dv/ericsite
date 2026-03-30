@@ -172,8 +172,29 @@ class ContentManager {
     if (fFace) fFace.href = this.content.contact.facebook;
   }
 
+  // Verificar acesso admin
+  checkAdminAccess() {
+    const editBtn = document.getElementById('editBtn');
+    const urlParams = new URLSearchParams(window.location.search);
+    const adminParam = urlParams.get('admin');
+    
+    // Mostrar botão apenas se o parâmetro admin estiver presente
+    if (adminParam === 'true' || adminParam === 'scwedding2025') {
+      if (editBtn) editBtn.style.display = 'inline-flex';
+    } else {
+      // Verificar se há senha no localStorage
+      const adminPassword = localStorage.getItem('scw_admin_access');
+      if (adminPassword === 'scwedding2025') {
+        if (editBtn) editBtn.style.display = 'inline-flex';
+      }
+    }
+  }
+
   // Configurar event listeners
   setupEventListeners() {
+    // Verificar se é admin e mostrar botão de edição
+    this.checkAdminAccess();
+
     // Edit mode toggle
     const editBtn = document.getElementById('editBtn');
     if (editBtn) {
