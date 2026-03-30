@@ -283,6 +283,10 @@ class ContentManager {
 
   // Abrir upload de imagem
   openImageUpload(element) {
+    console.log('Abrindo upload para:', element);
+    console.log('Data field:', element.dataset.field);
+    console.log('Src atual:', element.src);
+    
     this.currentImageField = element.dataset.field;
     this.currentImageUpload = element;
     
@@ -290,12 +294,18 @@ class ContentManager {
     const input = document.getElementById('imageUpload');
     const preview = document.getElementById('imagePreview');
     
+    if (!overlay || !input || !preview) {
+      console.error('Elementos do upload não encontrados');
+      return;
+    }
+    
     overlay.classList.add('active');
     input.value = '';
     preview.innerHTML = '';
     
     // Mostrar imagem atual
     preview.innerHTML = `<img src="${element.src}" alt="Preview">`;
+    console.log('Modal de upload aberto');
   }
 
   // Preview do upload
